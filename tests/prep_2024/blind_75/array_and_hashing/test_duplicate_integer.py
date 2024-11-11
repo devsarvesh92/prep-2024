@@ -2,7 +2,7 @@
 
 import pytest
 
-from prep_2024.blind_75.duplicate_integer import has_duplicate
+from prep_2024.blind_75.array_and_hashing.duplicate_integer import has_duplicate
 
 
 pytestmark=pytest.mark.duplicateinteger
