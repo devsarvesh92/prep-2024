@@ -1,0 +1,19 @@
+[project]
+name = "prep-2024"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Sarvesh", email = "sarveshdev92@gmail.com"},
+]
+dependencies = ["pytest>=8.3.3"]
+requires-python = "==3.13.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
+package-dir = "src"
+
+[tool.pdm.dev-dependencies]
+dev = ["-e file:///${PROJECT_ROOT}/#egg=prep-2024"]
